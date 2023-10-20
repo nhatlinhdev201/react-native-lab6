@@ -24,7 +24,7 @@ export default function App() {
                         headerTitle: 'title',
                         headerLeft: () => (
                             <Pressable
-                                onPress={() => navigation.navigate('Profile')}
+                                onPress={() => navigation.navigate('Screen1')}
                                 style={{
                                    flexDirection : 'row',
                                    justifyContent : 'center',

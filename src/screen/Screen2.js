@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 // create a component
-const MyComponent = () => {
+const MyComponent = ({route, navigation}) => {
     return (
         <View style={styles.container}>
-            <Text>MyComponent 2</Text>
+            
         </View>
     );
 };
